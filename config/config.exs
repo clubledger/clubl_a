@@ -21,7 +21,7 @@ import Config
 config :clubl_a,
   app_name: "CLUBL Avail",
   business_name: "CLUB-LEDGER Services Pty Ltd",
-  support_email: "sinfo@clubledger.com",
+  support_email: "info@clubledger.com",
   mailer_default_from_name: "Support",
   mailer_default_from_email: "mark@clubledger.com",
   logo_url_for_emails: "https://res.cloudinary.com/wickedsites/image/upload/v1643336799/petal/petal_logo_light_w5jvlg.png",
