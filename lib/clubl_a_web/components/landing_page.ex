@@ -61,12 +61,12 @@ defmodule ClubLA.Components.LandingPage do
         <div class="flex items-center justify-end ml-auto lg:w-3/12">
             <!-- TODO: Remove <div class="mr-3">
               <.language_select
-                current_locale={Gettext.get_locale(ClubLMWeb.Gettext)}
-                language_options={Application.get_env(:clubl_m, :language_options)}
+                current_locale={Gettext.get_locale(ClubLAWeb.Gettext)}
+                language_options={Application.get_env(:clubl_a, :language_options)}
               />
             </div>-->
             <!-- TODO: Remove <div class="mr-4">
-              <ClubLMWeb.Components.ColorSchemeSwitch.color_scheme_switch />
+              <ClubLAWeb.Components.ColorSchemeSwitch.color_scheme_switch />
             </div>-->
 
             <div class="hidden md:block">
@@ -512,7 +512,7 @@ defmodule ClubLA.Components.LandingPage do
             </div>
           </div>
           <div class="flex flex-wrap items-center justify-between mt-8">
-            <p class="order-last text-sm text-gray-400">© <%= Timex.now().year %> <%= Application.get_env(:clubl_m, :business_name) %>. All rights reserved.
+            <p class="order-last text-sm text-gray-400">© <%= Timex.now().year %> <%= Application.get_env(:clubl_a, :business_name) %>. All rights reserved.
               <.link to="/privacy" label="Privacy Policy" class="pl-3 ml-3 border-l border-gray-500" />
               <.link to="/license" label="License" class="pl-3 ml-3 border-l border-gray-500" />
             </p>
